@@ -1,0 +1,282 @@
+.center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+div{
+    display: block;
+}
+
+.header{
+    width: 1004px;
+}
+
+.header-top{
+    width: 1004px;
+}
+
+.header-mid{
+    width: 1004px;
+}
+
+.header-down{
+    width: 1004px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #0A2038 url(/img/bg.jpg) repeat-x;
+    background-position: top;
+    font-family: arial;
+    font-size: 12px;
+    color: black;
+}
+
+.top-content{
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.logob {
+    float: left;
+    padding-top: 4px;
+}
+
+.clear{
+    clear: both;
+}
+
+.menu {
+    padding-top: 10px;
+    padding-left: 500px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.menu li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 100px;
+    height: 23px;
+    background: url(/img/bg_menu.jpg) no-repeat;
+}
+
+.menu .menu_selected {
+    font-size: 16px;
+    color: #fff;
+}
+
+.menu li a {
+    font-size: 16px;
+    color: #0A2038;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 1004px;
+    background: #A2BBDC;
+    float: left;
+    padding-bottom: 2px;
+}
+
+.orange{
+    width: 999px;
+    background: #F57D16;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.slide1 {
+    width: 688px;
+    height: 394px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#slideshow ul {
+    position: relative;
+    height: 387px;
+}
+
+#slideshow li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    opacity: 0.o;
+    height: 387px;
+    width: 688px;
+}
+
+#slideshow li img {
+    height: 387px;
+    display: block;
+    border: 0;
+    margin-top: -9px;
+}
+
+.butoane {
+    float: left;
+    padding-left: 8px;
+}
+
+.btn {
+    width: 294px;
+    height: 71px;
+    background: #1C509E;
+    float: left;
+    margin-top: 6px;
+}
+
+.imagine {
+    float: left;
+    padding: 2px;
+}
+
+.text-btn {
+    padding-top: 10px;
+}
+
+.text-btn a {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    width: 160px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main{
+    width: 1004px;
+    margin-top: 4px;
+    background-color: #fff;
+}
+
+.titlu{
+    color: #000;
+    text-align: left;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text{
+    float: left;
+    padding-left: 20px;
+    width: 950px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text p {
+    font-size: 14px;
+    color: #000;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+#harta{
+    float: right;
+}
+
+.footer{
+    margin-top: 5px;
+}
+
+.bg-footer{
+    height: 20px;
+    background: url(/img/bg_footer.jpg) repeat-x;
+}
+
+.latime{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-stanga{
+    float: left;
+}
+
+.text-footer{
+    color: #013773;
+    padding-top: 3px;
+    font-size: 12px;
+    text-align: left;
+    float: left;
+    padding-left: 15px;
+}
+
+.footer-dreapta{
+    float: right;
+}
+
+.piatadesiteuri{
+    color: #013773;
+    font-size: 12px;
+    text-align: right;
+    float: left;
+    padding-left: 15px;
+}
+
+.piatadesiteuri a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #013773;
+}
+
+.Galerie {
+    margin: 10px 50px;
+}
+
+.Galerie img {
+    transition: 1s;
+    padding: 150px;
+    width: 200px;
+}
+
+.Galerie img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
